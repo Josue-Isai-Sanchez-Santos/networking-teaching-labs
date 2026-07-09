@@ -78,48 +78,56 @@ La red debe separar los dispositivos personales, dispositivos de invitados, disp
         |                  |                  |         |
  PCs, teléfonos       Invitados        Smart TV, IoT  Servidor web local
  Impresora
+```
 
- Reglas básicas de comunicación
+## Reglas básicas de comunicación
 
 Se sugieren las siguientes reglas para la red segmentada:
 
-Origen	Destino	Acción	Razón
-Red principal	Internet	Permitir	Los usuarios confiables necesitan acceso a internet
-Red de invitados	Internet	Permitir	Los invitados necesitan acceso básico a internet
-Red de invitados	Red principal	Bloquear	Los invitados no deben acceder a dispositivos personales
-Red de invitados	Red de servidores	Bloquear	Los invitados no deben acceder a servicios internos
-Red IoT	Internet	Permitir	Algunos dispositivos IoT requieren conexión con servicios en la nube
-Red IoT	Red principal	Bloquear	Los dispositivos IoT no deben acceder a computadoras personales
-Red principal	Red de servidores	Permitir	Los usuarios confiables pueden acceder a servicios internos
-Red de servidores	Internet	Permitir de forma limitada	Los servidores pueden necesitar actualizaciones
-Internet	Redes internas	Bloquear	El tráfico externo no debe entrar directamente a la red local
-Actividades del estudiante
+| Origen | Destino | Acción | Razón |
+|---|---|---|---|
+| Red principal | Internet | Permitir | Los usuarios confiables necesitan acceso a internet |
+| Red de invitados | Internet | Permitir | Los invitados necesitan acceso básico a internet |
+| Red de invitados | Red principal | Bloquear | Los invitados no deben acceder a dispositivos personales |
+| Red de invitados | Red de servidores | Bloquear | Los invitados no deben acceder a servicios internos |
+| Red IoT | Internet | Permitir | Algunos dispositivos IoT requieren conexión con servicios en la nube |
+| Red IoT | Red principal | Bloquear | Los dispositivos IoT no deben acceder a computadoras personales |
+| Red principal | Red de servidores | Permitir | Los usuarios confiables pueden acceder a servicios internos |
+| Red de servidores | Internet | Permitir de forma limitada | Los servidores pueden necesitar actualizaciones |
+| Internet | Redes internas | Bloquear | El tráfico externo no debe entrar directamente a la red local |
+
+## Actividades del estudiante
 
 El estudiante deberá realizar las siguientes actividades:
 
-Identificar todos los dispositivos del escenario.
-Asignar cada dispositivo al segmento de red correspondiente.
-Explicar por qué cada dispositivo pertenece a ese segmento.
-Crear un diagrama de red usando diagrams.net, draw.io u otra herramienta.
-Definir al menos cinco reglas de comunicación entre segmentos.
-Explicar cómo la segmentación mejora la seguridad.
-Responder las preguntas del archivo questions.md.
-Entregables esperados
+1. Identificar todos los dispositivos del escenario.
+2. Asignar cada dispositivo al segmento de red correspondiente.
+3. Explicar por qué cada dispositivo pertenece a ese segmento.
+4. Crear un diagrama de red usando diagrams.net, draw.io u otra herramienta.
+5. Definir al menos cinco reglas de comunicación entre segmentos.
+6. Explicar cómo la segmentación mejora la seguridad.
+7. Responder las preguntas del archivo `questions.md`.
+
+## Entregables esperados
 
 El estudiante deberá entregar:
 
-Tabla completa de asignación de dispositivos.
-Diagrama de red.
-Explicación breve de la estrategia de segmentación.
-Reglas de comunicación o firewall entre segmentos.
-Respuestas a las preguntas de análisis.
-Criterios de evaluación
-Criterio	Excelente	Bueno	Necesita mejorar
-Clasificación de dispositivos	Todos los dispositivos están correctamente asignados	La mayoría de los dispositivos están correctamente asignados	La asignación es confusa o incorrecta
-Segmentación de red	Los segmentos son lógicos y están justificados	Los segmentos son mayormente correctos	La segmentación carece de razonamiento técnico
-Calidad del diagrama	El diagrama es claro y organizado	El diagrama es comprensible	El diagrama está incompleto o es confuso
-Razonamiento de seguridad	Las reglas están bien justificadas	Algunas reglas están justificadas	Faltan reglas o están mal explicadas
-Documentación	El trabajo es claro y completo	El trabajo es mayormente claro	El trabajo está incompleto
-Conclusión
+- Tabla completa de asignación de dispositivos.
+- Diagrama de red.
+- Explicación breve de la estrategia de segmentación.
+- Reglas de comunicación o firewall entre segmentos.
+- Respuestas a las preguntas de análisis.
+
+## Criterios de evaluación
+
+| Criterio | Excelente | Bueno | Necesita mejorar |
+|---|---|---|---|
+| Clasificación de dispositivos | Todos los dispositivos están correctamente asignados | La mayoría de los dispositivos están correctamente asignados | La asignación es confusa o incorrecta |
+| Segmentación de red | Los segmentos son lógicos y están justificados | Los segmentos son mayormente correctos | La segmentación carece de razonamiento técnico |
+| Calidad del diagrama | El diagrama es claro y organizado | El diagrama es comprensible | El diagrama está incompleto o es confuso |
+| Razonamiento de seguridad | Las reglas están bien justificadas | Algunas reglas están justificadas | Faltan reglas o están mal explicadas |
+| Documentación | El trabajo es claro y completo | El trabajo es mayormente claro | El trabajo está incompleto |
+
+## Conclusión
 
 La segmentación de red ayuda a organizar dispositivos, reducir comunicaciones innecesarias y mejorar la seguridad. Incluso en una red doméstica o de pequeña oficina, separar dispositivos confiables, invitados, IoT y servidores puede disminuir riesgos y facilitar la administración.
