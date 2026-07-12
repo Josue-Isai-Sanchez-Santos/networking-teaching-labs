@@ -78,7 +78,7 @@ Resultado:
 /24 = 255.255.255.0
 ```
 
-## Ejemplo con 192.168.10.25/24
+## Ejemplo con la direccion IP 192.168.10.25/24
 
 Dirección IP:
 
