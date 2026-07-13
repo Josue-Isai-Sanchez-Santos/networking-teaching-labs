@@ -119,3 +119,10 @@ La versión 1.0 se enfoca en documentación, prácticas introductorias, diagrama
 
 Josué Isaí Sánchez Santos
 Ingeniería en Sistemas Computacionales
+
+
+## Licencias
+
+El código, los scripts y las configuraciones se distribuyen bajo la licencia MIT.
+El material educativo se distribuye bajo Creative Commons Atribución 4.0 Internacional (CC BY 4.0).
+Consulta [LICENSING.md](LICENSING.md), [LICENSE](LICENSE) y [LICENSE-CONTENT](LICENSE-CONTENT).
